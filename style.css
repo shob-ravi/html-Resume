@@ -1,3 +1,7 @@
+@media  (max-width: 580px){
+body{
+    background-color:pink;
+}
 .Header{
     border:solid black;
     background-color:lightgray;
@@ -7,6 +11,7 @@
 }
 .Header>h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px;
     text-align: center;
 }
 .contact{
@@ -14,14 +19,25 @@
     width:100%;
     height:60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
- 
- 
+a{
+    font-size: 10px;
+}
+/* .email{
+    display:flex;
+}  */
+#email-id,#link-logo{
+    width:7%;
+}
+
+/* .Linkedin{
+    display:flex;
+}  */
 .Bottom-sec{
     border:solid gray;
     width:100%;
-    height:160vh;
+    height:667vh;
     display:flex;
 }
 .Education{
@@ -42,7 +58,7 @@
     height:130vh;
 }
 li{
-    font-size: 14px;
+    font-size: 12px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .skills-L,.skills-P,.skills-T,.skills-D,.skills-A,.skills-cross,.skills-com{
@@ -50,7 +66,7 @@ li{
     height:20px;
     margin:1em;
     display:flex;
-    font-size: 15px;
+    font-size: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     justify-content: space-between;
 }
@@ -61,7 +77,7 @@ hr{
 }
 .line{
     border-left: 2px solid gray;
-    height:160vh;
+    height:auto;
 }
 h2,h3{
         margin:1em;
@@ -71,3 +87,264 @@ h2,h3{
     background-color:gray;
     height:2px;
 }
+}
+@media (min-width:580px) and (max-width: 880px){
+    body{
+        background-color:lightgreen;
+    }
+    .Header{
+        border:solid black;
+        background-color:lightgray;
+        width:100%;
+        height:20vh;
+        border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+    }
+    .Header>h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:25px;
+        text-align: center;
+    }
+    .contact{
+        /* border:solid black; */
+        width:100%;
+        height:60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        font-size: 20px;
+    }
+    
+    #email-id,#link-logo{
+        width:8%;
+    }
+    
+    
+    .Bottom-sec{
+        border:solid gray;
+        width:100%;
+        /* height:667vh; */
+        height:1180vh;
+        display:flex;
+    }
+    .Education{
+        /* border: solid red;  */
+        width:40%;
+        height:130vh;
+    }
+    .Education>h2{
+        font-family: sans-serif;
+    }
+    .div1,.div2,.div3{
+        display:flex;
+        
+    }
+    .Work-Exp{
+        /* border:solid green;  */
+        width:60%;
+        height:130vh;
+    }
+    li{
+        font-size: 17px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .skills-L,.skills-P,.skills-T,.skills-D,.skills-A,.skills-cross,.skills-com{
+        /* border:solid blue; */
+        height:20px;
+        margin:1em;
+        display:flex;
+        font-size: 18px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        justify-content: space-between;
+    }
+    hr{
+        margin:1em;
+        background-color: navy;    
+        height:5px;
+    }
+    .line{
+        border-left: 2px solid gray;
+        height:auto;
+    }
+    h2,h3{
+            margin:1em;
+            font-size: 18px;
+    }
+    .Work-Exp>hr{
+        background-color:gray;
+        height:2px;
+    }   
+}
+@media (min-width:880px) and (max-width: 1280px){
+    body{
+        background-color:lightskyblue;
+    }
+    .Header{
+        border:solid black;
+        background-color:lightgray;
+        width:100%;
+        height:20vh;
+        border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+        padding: 1%;
+    }
+    .Header>h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:25px;
+        text-align: center;
+    }
+    .contact{
+        /* border:solid black; */
+        width:100%;
+        height:60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        font-size: 20px;
+    }
+    
+    #email-id,#link-logo{
+        width:7%;
+    }
+    
+    
+    .Bottom-sec{
+        border:solid gray;
+        width:100%;
+        height:667vh;
+        display:flex;
+    }
+    .Education{
+        /* border: solid red;  */
+        width:40%;
+        height:130vh;
+    }
+    .Education>h2{
+        font-family: sans-serif;
+    }
+    .div1,.div2,.div3{
+        display:flex;
+        
+    }
+    .Work-Exp{
+        /* border:solid green;  */
+        width:60%;
+        height:130vh;
+    }
+    li{
+        font-size: 22px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .skills-L,.skills-P,.skills-T,.skills-D,.skills-A,.skills-cross,.skills-com{
+        /* border:solid blue; */
+        height:20px;
+        margin:1em;
+        display:flex;
+        font-size: 22px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        justify-content: space-between;
+    }
+    hr{
+        margin:1em;
+        background-color: navy;    
+        height:5px;
+    }
+    .line{
+        border-left: 2px solid gray;
+        height:auto;
+    }
+    h2,h3{
+            margin:1em;
+            font-size: 25px;    
+    }
+    .Work-Exp>hr{
+        background-color:gray;
+        height:2px;
+    }   
+}
+@media (min-width:1280px) {
+    body{
+        background-color:lightyellow;
+    }
+    .Header{
+        border:solid black;
+        background-color:lightgray;
+        width:100%;
+        height:20vh;
+        border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+        padding: 1%;
+    }
+    .Header>h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:25px;
+        text-align: center;
+    }
+    .contact{
+        /* border:solid black; */
+        width:100%;
+        height:60%;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        font-size: 20px;
+    }
+    
+    #email-id,#link-logo{
+        width:7%;
+    }
+   
+    .Bottom-sec{
+        border:solid gray;
+        width:100%;
+        height:667vh;
+        display:flex;
+    }
+    .Education{
+        /* border: solid red;  */
+        width:40%;
+        height:130vh;
+    }
+    .Education>h2{
+        font-family: sans-serif;
+    }
+    .div1,.div2,.div3{
+        display:flex;
+        
+    }
+    .Work-Exp{
+        /* border:solid green;  */
+        width:60%;
+        height:130vh;
+    }
+    li{
+        font-size: 22px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .skills-L,.skills-P,.skills-T,.skills-D,.skills-A,.skills-cross,.skills-com{
+        /* border:solid blue; */
+        height:20px;
+        margin:1em;
+        display:flex;
+        font-size: 22px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        justify-content: space-between;
+    }
+    hr{
+        margin:1em;
+        background-color: navy;    
+        height:5px;
+    }
+    .line{
+        border-left: 2px solid gray;
+        height:auto;
+    }
+    h2,h3{
+            margin:1em;
+            font-size: 25px;    
+    }
+    .Work-Exp>hr{
+        background-color:gray;
+        height:2px;
+    } 
+}  
