@@ -1,7 +1,7 @@
 @media  (max-width: 580px){
-body{
+/* body{
     background-color:pink;
-}
+} */
 .Header{
     border:solid black;
     background-color:lightgray;
@@ -24,16 +24,12 @@ body{
 a{
     font-size: 10px;
 }
-/* .email{
-    display:flex;
-}  */
+
 #email-id,#link-logo{
     width:7%;
 }
 
-/* .Linkedin{
-    display:flex;
-}  */
+
 .Bottom-sec{
     border:solid gray;
     width:100%;
@@ -89,9 +85,9 @@ h2,h3{
 }
 }
 @media (min-width:580px) and (max-width: 880px){
-    body{
+    /* body{
         background-color:lightgreen;
-    }
+    } */
     .Header{
         border:solid black;
         background-color:lightgray;
@@ -176,9 +172,9 @@ h2,h3{
     }   
 }
 @media (min-width:880px) and (max-width: 1280px){
-    body{
+    /* body{
         background-color:lightskyblue;
-    }
+    } */
     .Header{
         border:solid black;
         background-color:lightgray;
@@ -263,9 +259,9 @@ h2,h3{
     }   
 }
 @media (min-width:1280px) {
-    body{
+    /* body{
         background-color:lightyellow;
-    }
+    } */
     .Header{
         border:solid black;
         background-color:lightgray;
